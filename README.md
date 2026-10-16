@@ -2,7 +2,7 @@
 
 A Python inventory planning tool for a three-DC beverage distribution network in California (Fresno, San Jose and Riverside). It takes the RMS 10-day daily demand forecast, the current inventory snapshot, and days-on-hand (DOH) targets, then flags stock-out risk, recommends DC-to-DC transfers and purchase orders, scores vendors on confirmation rate, OTIF and lead time, and uses Claude (generative AI) to write the daily inventory update for leadership. Results are shown in an interactive dashboard.
 
-**Live dashboard:** [California Inventory Planner](https://claude.ai/artifact/MVFU6CMKPkjos9WGsHVHKL)
+
 
 ## Features
 
