@@ -127,6 +127,4 @@ On the sample network (12 SKUs × 3 DCs, inventory as of Oct 15, 2026):
 
 All data is synthetic; brands, SKUs, and volumes are invented.
 
-## Resume Summary
 
-Built an AI-assisted inventory planning tool in Python that uses a 10-day RMS daily forecast, current inventory, and SKU-level days-on-hand targets to flag stock-out risk, recommend purchase orders and DC-to-DC transfers, and rebalance stock across a 3-DC network. Added a vendor scorecard that tracks confirmation rate, OTIF, and actual vs quoted lead time from PO history and links vendor issues to out-of-stock risk. Integrated Claude (generative AI) to write the daily inventory update for leadership, and built an interactive dashboard showing DOH by SKU and DC, projected inventory, vendor performance, and recommended actions.
